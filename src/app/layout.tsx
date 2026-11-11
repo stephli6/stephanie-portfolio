@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stephanie-portfolio.vercel.app"),
+  metadataBase: new URL("https://stephanie-portfolio-blush.vercel.app"),
   title: {
     default: "Stephanie Hwang — Data Analyst",
     template: "%s | Stephanie Hwang",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Stephanie Hwang, a Data Analyst and UCLA MEng Data Science student (June 2027). SQL, Python, Tableau, and Power BI — from raw data to decisions.",
   applicationName: "Stephanie Hwang Portfolio",
-  authors: [{ name: "Stephanie Hwang", url: "https://stephanie-portfolio.vercel.app" }],
+  authors: [{ name: "Stephanie Hwang", url: "https://stephanie-portfolio-blush.vercel.app" }],
   creator: "Stephanie Hwang",
   publisher: "Stephanie Hwang",
   keywords: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://stephanie-portfolio.vercel.app",
+    url: "https://stephanie-portfolio-blush.vercel.app",
     siteName: "Stephanie Hwang Portfolio",
     title: "Stephanie Hwang — Data Analyst",
     description:

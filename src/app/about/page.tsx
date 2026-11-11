@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "About Stephanie Hwang — Data Analyst",
     description:
       "Learn about Stephanie Hwang's background, work history, and approach to data analysis.",
-    url: "https://stephanie-portfolio.vercel.app/about",
+    url: "https://stephanie-portfolio-blush.vercel.app/about",
     images: [
       {
         url: "/images/hero.webp",

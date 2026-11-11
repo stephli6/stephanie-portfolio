@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Contact Stephanie Hwang — Let's Talk Data",
     description:
       "Get in touch with Stephanie Hwang about Data / BI Analyst roles, analytics projects, or collaborations.",
-    url: "https://stephanie-portfolio.vercel.app/contact",
+    url: "https://stephanie-portfolio-blush.vercel.app/contact",
   },
   twitter: {
     card: "summary_large_image",

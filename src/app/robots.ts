@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://stephanie-portfolio.vercel.app/sitemap.xml",
+    sitemap: "https://stephanie-portfolio-blush.vercel.app/sitemap.xml",
   };
 }

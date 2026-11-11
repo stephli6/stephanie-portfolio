@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const imageUrl = project.image.startsWith("http")
     ? project.image
-    : `https://stephanie-portfolio.vercel.app${project.image}`;
+    : `https://stephanie-portfolio-blush.vercel.app${project.image}`;
 
   return {
     title: project.title,
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${project.title} — Case Study by Stephanie Hwang`,
       description: project.description,
-      url: `https://stephanie-portfolio.vercel.app/projects/${project.slug}`,
+      url: `https://stephanie-portfolio-blush.vercel.app/projects/${project.slug}`,
       type: "article",
       images: [
         {
@@ -317,7 +317,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 title="Share on Twitter / X"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900/60 hover:bg-zinc-800 hover:text-white hover:border-zinc-700 transition-all active:scale-95"
                 href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                  `https://stephanie-portfolio.vercel.app/projects/${project.slug}`
+                  `https://stephanie-portfolio-blush.vercel.app/projects/${project.slug}`
                 )}`}
                 target="_blank"
                 rel="noreferrer"
@@ -329,7 +329,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 title="Share on LinkedIn"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900/60 hover:bg-zinc-800 hover:text-white hover:border-zinc-700 transition-all active:scale-95"
                 href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-                  `https://stephanie-portfolio.vercel.app/projects/${project.slug}`
+                  `https://stephanie-portfolio-blush.vercel.app/projects/${project.slug}`
                 )}`}
                 target="_blank"
                 rel="noreferrer"
@@ -343,7 +343,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                 href={`mailto:?subject=${encodeURIComponent(
                   project.title
                 )}&body=${encodeURIComponent(
-                  `https://stephanie-portfolio.vercel.app/projects/${project.slug}`
+                  `https://stephanie-portfolio-blush.vercel.app/projects/${project.slug}`
                 )}`}
               >
                 <Mail size={16} />
